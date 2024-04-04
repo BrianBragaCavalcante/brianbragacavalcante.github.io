@@ -33,9 +33,14 @@ main {
 }
 
 .fontes {
+    margin-left: 50px;
     text-align: left;
     display: inline-block;
     width: 100%;
+}
+
+#imagens {
+    text-align: center;
 }
 
 .fontes ul {
@@ -74,13 +79,8 @@ a:hover {
     padding: 10px;
 }
 
-.container > span > p {
-    text-align: center;
-}
-
 @media (max-width: 600px) {
     .container img {
         max-width: 100%;
     }
 }
-
