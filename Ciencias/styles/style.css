@@ -74,6 +74,10 @@ a:hover {
     padding: 10px;
 }
 
+.container > span > p {
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     .container img {
         max-width: 100%;
